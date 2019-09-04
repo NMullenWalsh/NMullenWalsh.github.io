@@ -1,0 +1,36 @@
+body {
+	background-color: orange;
+}
+header {
+	background-color: tan;
+	background-image: url(face.jpg);
+	height: 111px;
+	background-position: right 5px top 5px;
+	background-repeat: no-repeat;
+	padding: 5px;
+	padding-left: 20px;
+}
+footer{
+	background-color: tan;
+}
+#content {
+	background-color: white;
+	padding: 15px;
+	min-height: 300px;
+}
+header, footer, #content {
+	border-style:solid;
+	border-width: 1px;
+	border-color: tan;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px black;
+}
+h1{
+	color: black;
+	font-size: 300%;
+	font-family: Cambria,Courier;
+}
